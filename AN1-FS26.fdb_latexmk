@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1785593615.0254 "/Users/eliasgerber/ETH/2.Sem/Analysis1/AN1-FS26.tex" "AN1-FS26.pdf" "AN1-FS26" 1785593617.00293 0
-  "/Users/eliasgerber/ETH/2.Sem/Analysis1/AN1-FS26.tex" 1785578833.5374 3071 65e11f8bb805f34fc8cc9efc031877f4 ""
+["pdflatex"] 1785935480.36862 "/Users/eliasgerber/ETH/2.Sem/Analysis1/AN1-FS26.tex" "AN1-FS26.pdf" "AN1-FS26" 1785935482.53419 0
+  "/Users/eliasgerber/ETH/2.Sem/Analysis1/AN1-FS26.tex" 1785756915.21538 3071 c39f4609a9130982139487b46891a8fb ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1136768653 1536 05df9db6aeccc4eea94fec15c9024f79 ""
@@ -173,10 +173,10 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1785592772 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1785592630 3636769 03f4cd6c659fac29c91c5fe3015058f4 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "AN1-FS26.aux" 1785593616.89111 25232 f0b33895e7cc20b3a3e502d2d3a5dec3 "pdflatex"
-  "AN1-FS26.out" 1785593616.89324 5601 8f11fe49f7b683efabe28331f79978da "pdflatex"
-  "AN1-FS26.tex" 1785578833.5374 3071 65e11f8bb805f34fc8cc9efc031877f4 ""
-  "tex/01-LogikMengenZahlen.tex" 1785579961.80879 8860 1c44e0bacda6f1576d71f57bb74e93f3 ""
+  "AN1-FS26.aux" 1785935482.41546 25713 e045947c372e70ecf48ab5b27cb4c1ba "pdflatex"
+  "AN1-FS26.out" 1785935482.41769 5888 f954019b7d5ba93242a4823162dec683 "pdflatex"
+  "AN1-FS26.tex" 1785756915.21538 3071 c39f4609a9130982139487b46891a8fb ""
+  "tex/01-LogikMengenZahlen.tex" 1785850143.47931 8681 bf69c27931603057180c387ccb5eaad0 ""
   "tex/02-Folgen.tex" 1785578833.53436 5436 942f41e8cfbcd0c7e452f4b1f0c6d831 ""
   "tex/03-Reihen.tex" 1785578833.5358 5034 06de9dd5313c3b1eb69b54b50f353d33 ""
   "tex/04-Funktionen.tex" 1785579937.59455 10389 7eb814b3110cdaa6bcc223b374b8a0f8 ""
@@ -184,7 +184,7 @@
   "tex/06-Differentialgleichungen.tex" 1785579963.83618 6766 cda3d47e86754a7fc4102e754f5ade71 ""
   "tex/07-Integralrechnung.tex" 1785579941.62053 9661 411a15b7d9db2362ca62fe5da915ee64 ""
   "tex/08-Beispiele.tex" 1785579976.07829 8609 c86cc8782e4e0d6948c328c9c6c00a64 ""
-  "tex/09-Beweise.tex" 1785579942.12193 2415 2454820fab463cc346684f75ab5045ca ""
+  "tex/09-Beweise.tex" 1785935477.84094 4340 0f6cffb5f4ed71fee8a0e46f8bdd0a24 ""
   "tex/10-Tabellen.tex" 1785578833.53649 10330 e227dd8b8547dad9a58bade702c333a4 ""
   (generated)
   "AN1-FS26.aux"

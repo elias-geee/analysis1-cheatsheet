@@ -1,6 +1,32 @@
 \section{9. Beweise \texorpdfstring{$\star$}{*}}
 
+\subsection{Zahlen}
+
+\Bew \key{Youngsche Ungleichung}: Da $\left(\sqrt{\varepsilon}|x| - \frac{1}{\sqrt{\varepsilon}}|y|\right)^2\ge 0$, folgt
+$\varepsilon x^2 - 2|xy| + \frac{1}{\varepsilon}y^2\ge 0$, also $2|xy|\le \varepsilon x^2 + \frac{1}{\varepsilon}y^2$
+
+\subsection{Reihen}
+
+\Bew \key{Leibniz Kriterium}: Sei $s_n := \sum_{k=0}^{n}(-1)^k a_k$. Da $(a_n)$ monoton fallend, gilt
+$s_{2n+2} = s_{2n} - a_{2n+1} + a_{2n+2}\le s_{2n}$ und $s_{2n+1} = s_{2n-1} + a_{2n} - a_{2n+1}\ge s_{2n-1}$,
+d.h. $(s_{2n})$ monoton fallend, $(s_{2n+1})$ monoton wachsend. Da $s_{2n} - s_{2n+1} = a_{2n+1}\ge 0$
+sind beide Teilfolgen beschränkt, also konvergent gegen $B := \lim s_{2n}$, $A := \lim s_{2n+1}$, $A\le B$.
+Da $(a_n)$ Nullfolge, $B - A = \lim(s_{2n} - s_{2n+1}) = \lim a_{2n+1} = 0$, also $A = B =: s$.
+Damit $s_n \to s$, und aus Monotonie der Teilfolgen folgt $s_{2m+1}\le s\le s_{2m}$ für alle $m \in \NN_0$
+
+\subsection{Funktionen}
+
+\Bew \key{Zwischenwertsatz}: O.B.d.A. $f(a) < f(b)$ (sonst betrachte $-f$). Sei $c \in [f(a), f(b)]$ und
+$X := \{x \in [a,b] \mid f(x)\le c\}$. Da $a \in X$ ist $X\ne\varnothing$ und beschränkt, also existiert
+$x_0 := \sup(X)$. Es gibt eine Folge $(x_n) \subset X$ mit $x_n \to x_0$; aus Stetigkeit folgt
+$f(x_0) = \lim f(x_n)\le c$. Wäre $f(x_0) < c$ (insb. $x_0 < b$, da $c\le f(b)$), so gäbe es wegen
+Stetigkeit ein $\delta > 0$ mit $f(y) < c$ für alle $y \in (x_0-\delta, x_0+\delta) \cap [a,b]$, also läge auch
+$(x_0, x_0+\delta) \cap [a,b] \subset X$ im Widerspruch zu $x_0 = \sup(X)$. Also $f(x_0) = c$
+
 \subsection{Differentialrechnung}
+
+\Bew $f$ diff.bar in $x_0$ $\implies$ $f$ stetig in $x_0$:
+$$\lim_{h\to 0} f(x_0+h) = \lim_{h\to 0}\left[\frac{f(x_0+h)-f(x_0)}{h}\cdot h + f(x_0)\right] = f'(x_0)\cdot 0 + f(x_0) = f(x_0)$$
 
 \Bew \key{Satz von Rolle}: Da $f$ auf $[a, b]$ stetig, nimmt $f$ in $x_{min}, x_{max} \in [a, b]$
 ein Min. und Max. an (Stetige Funktion auf kompaktem Intervall).
@@ -41,4 +67,6 @@ gibt es ein $c \in [\min\{x_{min}, x_{max}\}, \max\{x_{min}, x_{max}\}] \subset 
 \Bew \key{Hauptsatz der Integral- und Differentialrechnung}:
 $$\lim_{h\to 0} \frac{F(x + h) - F(x)}{h} = \lim_{h\to 0} \frac{1}{h} \int_{x}^{x + h} f(y) dy = \lim_{h\to 0} f(\xi_h)$$
 wegen Mittelwertsatz der Integralrechnung. Da $\xi_h \to x$, $h \to 0$ und $f$ stetig gilt:
-$\lim_{h\to 0} f(\xi_h) = f(x)$. Also $F'(x)$ existiert und gleich $f(x)$
+$\lim_{h\to 0} f(\xi_h) = f(x)$. Also $F'(x)$ existiert und gleich $f(x)$. \\
+\key{Eindeutigkeit}: Ist $G$ eine weitere Stammfunktion von $f$, gilt $(G - F)' = f - f = 0$,
+also ist $G - F$ konstant (Kor.), d.h. $G(x) = F(x) + C'$ für ein $C' \in \RR$
