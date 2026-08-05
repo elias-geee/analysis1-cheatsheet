@@ -32,7 +32,7 @@
 \Bsp \key{Substitution}: Lösung von $y' = y + x$
 \begin{enumerate}
     \item Substitution $u = x + y$, also $u' = y' + 1$ (d.h. $y' = u' - 1$)
-    \item Setze in der DG ein: $u' - 1 = u \implies u' = u + 1$
+    \item Setze in der DGL ein: $u' - 1 = u \implies u' = u + 1$
     \item Löse durch Trennung der Variablen: $u = Ce^x - 1$
     \item Setze $u = x + y$ ein: $x + y = Ce^x - 1 \implies y = Ce^x - x - 1$
 \end{enumerate}
@@ -80,7 +80,7 @@
             y_p'' &= 4C_1e^{2x} + 4C_1 x e^{2x} + 2C_2 \\[-0.4em]
             y_p''' &= 12 C_1 e^{2x} + 8C_1 x e^{2x}
         \end{align*}
-    \item Substitution in der DG um $C_1, C_2$ zu bestimmen:
+    \item Substitution in der DGL um $C_1, C_2$ zu bestimmen:
         \begin{align*}
             y_p''' - 2y_p'' &= 4e^{2x} + 12 \\[-0.3em]
             12C_1 e^{2x} + 8C_1xe^{2x} - 8C_1e^{2x} - 8C_1xe^{2x} - 4C_2 &= 4e^{2x} + 12 \\[-0.6em]
@@ -93,7 +93,7 @@
 
 \Bsp \key{Anfangswertproblem}: Lösung von $y'' - 6y' + 25y = 0$ gegeben $y(0) = 0$ und $y'(0) = 1$
 \begin{enumerate}
-    \item Löse DG (char. Polynom $\lambda^2 - 6\lambda + 25$ hat Lösungen $\lambda_{1, 2} = 3 \pm 4i$)
+    \item Löse DGL (char. Polynom $\lambda^2 - 6\lambda + 25$ hat Lösungen $\lambda_{1, 2} = 3 \pm 4i$)
     \begin{align*}
         y &= \sum_{j=1}^{s} \left(\sum_{q=0}^{m_j-1}(A_{jq} x^q e^{a_j x} \sin(b_j x) + B_{jq} x^q e^{a_j x} \cos(b_j x))\right) \\
           &= e^{3x} (A \sin(4 x) + B  \cos(4 x))
@@ -117,6 +117,24 @@
     \implies \int e^{2x} \cdot \cos(x) dx &= \frac{1}{5}e^{2x}(\sin x + 2\cos x) + C
 \end{align*}
 
+
+\begin{minipage}{\linewidth}
+\Bsp \key{DI-Methode} (mehrfache part. Int. als Tabelle): Lösung von $\displaystyle \int x^2 e^x dx$
+\vspace{-0.6em}
+\begin{center}
+\begin{tabular}{c|c c}
+     & $D$ (ableiten) & $I$ (integrieren) \\
+    \hline
+    $+$ & $x^2$ & $e^x$ \\
+    $-$ & $2x$ & $e^x$ \\
+    $+$ & $2$ & $e^x$ \\
+     & $0$ &
+\end{tabular}
+\end{center}
+\vspace{-0.4em}
+Diagonalprodukte mit Vorzeichen aufsummieren (letzte Zeile mit $D = 0$ weglassen):
+$$\int x^2 e^x dx = x^2e^x - 2xe^x + 2e^x + C$$
+\end{minipage}
 
 \begin{minipage}{\linewidth}
 \Bsp \key{Partielle Integration + Subtitution}: Lösung von $\displaystyle \int \arcsin(x) dx$
@@ -155,6 +173,22 @@
         &= \frac{2}{\sqrt{3}} \arctan(\frac{t + \frac{1}{2}}{\frac{\sqrt{3}}{2}}) + C \\[-0.4em]
         &= \frac{2}{\sqrt{3}} \arctan(\frac{\tan(\frac{x}{2}) + \frac{1}{2}}{\frac{\sqrt{3}}{2}}) + C
 \end{align*}
+
+\subsection{Funktionenfolgen}
+
+\begin{minipage}{\linewidth}
+\Bsp \key{Punktw. vs. gleichm. Konvergenz}: Untersuche $f_n(x) = x^n$ auf $[0,1]$
+\begin{enumerate}
+    \item \key{Punktweise Konvergenz}: Für $x \in [0,1)$: $\lim\limits_{n\to\infty} x^n = 0$.
+    Für $x=1$: $\lim\limits_{n\to\infty} 1^n = 1$
+    \item \key{Grenzfunktion}: $f(x) = \begin{cases} 0 & x \in [0,1) \\ 1 & x = 1 \end{cases}$
+    \item \key{Gleichmässige Konvergenz}: $M_n = \sup\limits_{x\in[0,1]}|x^n - f(x)| = \sup\limits_{x\in[0,1)} x^n = 1$
+    (da $x^n \to 1$ für $x \to 1^-$), also $\limsup\limits_{n\to\infty} M_n = 1 \ne 0$
+    $\implies$ \key{nicht} gleichmässig konvergent
+\end{enumerate}
+Beachte: $f_n$ stetig, aber $f$ unstetig bei $x=1$ -- passt zum Satz, dass gleichm.
+Konv. stetiger Funkt. wieder stetig ist
+\end{minipage}
 
 \subsection{Misc}
 

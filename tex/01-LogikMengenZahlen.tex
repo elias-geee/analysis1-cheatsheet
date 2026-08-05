@@ -192,14 +192,27 @@ und $\overline{\frac{z}{w}} = \frac{\overline{z}}{\overline{w}}$ für $z,w \in \
 
 \Satz \key{Eulersche Formel}: $e^x = \sum_{k=0}^{\infty}\frac{1}{k!}x^k$ und mit $x = it$:
 $$e^{it} = \cos(t) + i\sin(t)$$
-
-\Kor $\cos(t) = \frac{e^{it} + e^{-it}}{2}$ und $\sin(t) = \frac{e^{it} - e^{-it}}{2i}$
+(komplexe Form von $\cos$/$\sin$ $\to$ Abschnitt 10)
 
 \Def $\cosh(t) = \frac{e^t + e^{-t}}{2}$ und $\sinh(t) = \frac{e^t - e^{-t}}{2}$
 
 \Def \key{Polardarstellung}: $z = r \cdot e^{i\varphi}$ und $r = |z|$, $\varphi = \arg(z) \in (-\pi, \pi]$
 
-\Satz \key{Wurzeln in $\CC$}: $z^n = re^{i\varphi}$: 
+\Satz \key{Umrechnung kartesisch $\leftrightarrow$ polar}: Für $z = a + ib = r e^{i\varphi}$ gilt:
+\vspace{-0.6em}
+\begin{itemize}
+    \item \key{kart. $\to$ polar}:
+    $$r = \sqrt{a^2+b^2}, \quad \varphi = \begin{cases}
+        \arctan(b/a) & a > 0 \\
+        \arctan(b/a) + \pi & a < 0, b \ge 0 \\
+        \arctan(b/a) - \pi & a < 0, b < 0 \\
+        \pi/2 & a = 0, b > 0 \\
+        -\pi/2 & a = 0, b < 0
+    \end{cases}$$
+    \item \key{polar $\to$ kart.}: $a = r\cos(\varphi)$, $b = r\sin(\varphi)$
+\end{itemize}
+
+\Satz \key{Wurzeln in $\CC$}: $z^n = re^{i\varphi}$:
 $z_k = r^{\frac{1}{n}}e^{i\frac{\varphi + 2k\pi}{n}}$ wobei $0\le k < n$
 
 \Satz \key{Fundamentalsatz der Algebra}: $p(z) = \sum_{k=0}^{n} a_k z^k$, $a_k \in \CC$

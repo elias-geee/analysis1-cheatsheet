@@ -8,6 +8,20 @@ $s_n = \sum_{k=0}^{n} a_k$ gegen Grenzwert $L < \infty$ konvergiert,
 Reihe \key{konvergiert}, $\lim\limits_{n\to\infty} s_n = \sum_{k=0}^{\infty} a_k = L$,
 sonst \key{divergent}. $L$ ist \key{Wert} der Reihe
 
+\Satz \key{Wichtige Reihen}
+\vspace{-0.6em}
+\begin{itemize}
+    \item \key{Geometrische Reihe}: $a_k = a_0 q^k$. Partialsumme $s_n = \sum_{k=0}^{n} a_0 q^k = a_0\frac{1-q^{n+1}}{1-q}$ ($q\ne 1$).
+    Für $|q|<1$: $\sum_{k=0}^{\infty} a_0 q^k = \frac{a_0}{1-q}$, für $|q|\ge 1$ divergent
+    \item \key{Arithmetische Reihe}: $a_k = a_0 + kd$. Partialsumme
+    $s_n = \sum_{k=0}^{n} a_k = (n+1)a_0 + d\frac{n(n+1)}{2} = \frac{(n+1)(a_0+a_n)}{2}$;
+    divergiert für $n\to\infty$ (ausser $a_0=d=0$)
+    \item \key{Verallg. harmonische Reihe} ($p$-Reihe): $\sum_{n=1}^{\infty} \frac{1}{n^p}$ konvergiert $\iff p > 1$
+    (divergiert für $p\le 1$); geschlossene Form i.A. unbekannt, ausser z.B. $p=2$: $\sum \frac{1}{n^2} = \frac{\pi^2}{6}$
+    \item \key{Teleskopreihe}: $\sum_{k=1}^{n} (a_k - a_{k+1}) = a_1 - a_{n+1}$.
+    Falls $a_n \to L$: $\sum_{k=1}^{\infty} (a_k - a_{k+1}) = a_1 - L$
+\end{itemize}
+
 \Satz \key{Notwend. Kriterium für Konvergenz}: \key{Nullfolge}, $\lim\limits_{n\to\infty} a_n = 0$
 
 \Satz $\sum_{n=0}^{\infty} a_n$, $\sum_{n=0}^{\infty} b_n$ konvergent, $C \in \RR$

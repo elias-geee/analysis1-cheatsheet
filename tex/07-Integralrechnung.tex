@@ -32,6 +32,8 @@ $$\int f(x) dx$$
 
 \Satz \key{Partielle Integration}: $f, g$ Funktionen.
 $$\int \underbrace{f(x)}_{\downarrow}\cdot\underbrace{g'(x)}_{\uparrow} dx = f(x) \cdot g(x) - \int f'(x) \cdot g(x) dx$$
+\Def \key{LIATE-Regel}: Wahl von $f$ (ableiten) nach Priorität: \textbf{L}ogarithmus, \textbf{I}nverse trig. Funk.,
+\textbf{A}lgebraische Funk. (Polynom), \textbf{T}rig. Funk., \textbf{E}xponentialfunk. (Rest wird $g'$)
 
 \Satz \key{Integration durch Substitution}: $f, g$ Funktionen.
 $$\int f'(\underbrace{g(x)}_y) \cdot \underbrace{g'(x) dx}_{dy} = \int \frac{df}{dy} dy = f(y) + C = f(g(x)) + C$$
@@ -126,6 +128,8 @@ $\alpha, \beta \in \RR$:
 
 \Satz Jede stetige Funktion ist Riemann-integrierbar
 
+\subsection{Funktionenfolgen}
+
 \Def $D \subset \RR$, $(f_n)_{n \in \NN_0}$ Folge von Funkt. $f_n: D \subset \RR \to \RR$
 und $f: D \subset \RR \to \RR$ Funktion.
 Dann \key{konvergiert die Folge $(f_n)_{n\in\NN_0}$ punktweise gegen $f$}, falls, für jedes $x \in D$,
@@ -136,6 +140,9 @@ von $(f_n)_{n\in\NN_0}$
 $f: D \to \RR$. \\
 \key{Folge konvergiert gleichmässig gegen $f$}, falls
 $\forall \varepsilon > 0 \, \exists N \in \NN_0 \, \forall n \ge N \, \forall x \in D : |f_n(x) - f(x)| < \varepsilon$
+
+\Satz \key{Kriterium für gleichmässige Konvergenz}: Sei $M_n := \sup\limits_{x\in D}|f_n(x)-f(x)|$.
+$(f_n)_{n\in\NN_0}$ konvergiert gleichmässig gegen $f$ $\iff$ $\limsup\limits_{n\to\infty} M_n = 0$
 
 \Satz $D \subset \RR$, $(f_n)_{n \in \NN_0}$ Folge stetiger Funkt. $f_n: D \to \RR$, die gleichmässig
 gegen $f: D \to \RR$ konvergiert. Dann $f$ stetig

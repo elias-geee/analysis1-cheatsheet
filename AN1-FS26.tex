@@ -54,50 +54,63 @@
     \vskip\sepwidth
 }
 
-\titleformat{\section}
-    {\secsep\Large\bfseries}
-    {\thesection}
-    {1em}
-    {}
-    [\vspace{-\baselineskip}]
+% Pastel-Palette, wird bei jedem Header weitergeschaltet, damit aufeinanderfolgende
+% Sections/Subsections unterschiedliche Farben haben
+\definecolor{pastelRed}{RGB}{255,179,186}
+\definecolor{pastelOrange}{RGB}{255,223,186}
+\definecolor{pastelYellow}{RGB}{255,255,186}
+\definecolor{pastelGreen}{RGB}{186,255,201}
+\definecolor{pastelTeal}{RGB}{186,255,255}
+\definecolor{pastelBlue}{RGB}{186,225,255}
+\definecolor{pastelPurple}{RGB}{223,186,255}
+\definecolor{pastelPink}{RGB}{255,186,240}
+
+% \ifcase resolves only a plain colour name (never \colorbox directly), since
+% \colorbox waiting on an argument across an \ifcase/\fi boundary corrupts TeX's
+% conditional stack; \colorbox itself is then called once, fully outside \ifcase.
+\newcounter{seccolor}
+\newcommand{\currentseccolor}{%
+    \ifcase\value{seccolor}\relax
+        pastelRed%
+    \or pastelRed%
+    \or pastelOrange%
+    \or pastelYellow%
+    \or pastelGreen%
+    \or pastelTeal%
+    \or pastelBlue%
+    \or pastelPurple%
+    \or pastelPink%
+    \fi
+}
+\newcommand{\seccolorbox}{%
+    \stepcounter{seccolor}%
+    \ifnum\value{seccolor}>8 \setcounter{seccolor}{1}\fi
+    \colorbox{\currentseccolor}%
+}
+
+% (Sub)subsections reuse the enclosing section's colour rather than cycling on
+% their own, so every header within a section matches
+\newcommand{\subseccolorbox}{\colorbox{\currentseccolor}}
 
 \titleformat{\section}
     {\secsep\normalfont\Large\bfseries}
     {}
     {0pt}
-    {\colorbox{yellow!50}}
+    {\seccolorbox}
 
 \titleformat{\subsection}
     {\normalfont\large\bfseries}
     {}
     {0pt}
-    {\colorbox{yellow!50}}
+    {\subseccolorbox}
 
 \titleformat{\subsubsection}
     {\normalfont\normalsize\bfseries}
     {}
     {0pt}
-    {\colorbox{yellow!50}}
+    {\subseccolorbox}
 
-\newcommand{\key}[1]{\textit{\color{red}{#1}}}
-
-\titleformat{\section}
-    {\secsep\normalfont\Large\bfseries}
-    {}
-    {0pt}
-    {\colorbox{yellow!50}}
-
-\titleformat{\subsection}
-    {\normalfont\large\bfseries}
-    {}
-    {0pt}
-    {\colorbox{yellow!50}}
-
-\titleformat{\subsubsection}
-    {\normalfont\normalsize\bfseries}
-    {}
-    {0pt}
-    {\colorbox{yellow!50}}
+\newcommand{\key}[1]{\textbf{\textit{\color{red}{#1}}}}
 
 \setcounter{secnumdepth}{1}
 \numberwithin{equation}{section}
