@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1786028802.78572 "/Users/eliasgerber/ETH/2.Sem/Analysis1/AN1-FS26.tex" "AN1-FS26.pdf" "AN1-FS26" 1786028804.95383 0
+["pdflatex"] 1786032039.82425 "/Users/eliasgerber/ETH/2.Sem/Analysis1/AN1-FS26.tex" "AN1-FS26.pdf" "AN1-FS26" 1786032042.01368 0
   "/Users/eliasgerber/ETH/2.Sem/Analysis1/AN1-FS26.tex" 1785940004.01329 3973 3234092b3f468501e851e055f3d93a8b ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -176,8 +176,8 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1785592772 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1785592630 3636769 03f4cd6c659fac29c91c5fe3015058f4 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "AN1-FS26.aux" 1786028804.82723 26582 d91429461c69ea3e457674b4049cfedc "pdflatex"
-  "AN1-FS26.out" 1786028804.82959 6171 825b8bc1a5553b6ca6abfce8a5debf09 "pdflatex"
+  "AN1-FS26.aux" 1786032041.87969 26582 d91429461c69ea3e457674b4049cfedc "pdflatex"
+  "AN1-FS26.out" 1786032041.88216 6171 825b8bc1a5553b6ca6abfce8a5debf09 "pdflatex"
   "AN1-FS26.tex" 1785940004.01329 3973 3234092b3f468501e851e055f3d93a8b ""
   "tex/01-LogikMengenZahlen.tex" 1786022729.9658 9163 12a67ee63d26d712b2fe4ac06e17070d ""
   "tex/02-Folgen.tex" 1786022994.47003 5629 840adfeb9f3a0cd79c4df4dfc2babdc2 ""
@@ -188,7 +188,7 @@
   "tex/07-Integralrechnung.tex" 1786023017.18979 10591 9078690c0bf35c470cd06c8bf885dc2f ""
   "tex/08-Beispiele.tex" 1785944761.27367 9952 bedd77d5837ff88e2d520847eb669284 ""
   "tex/09-Beweise.tex" 1786028624.393 4385 1af8f47e3b625d44437a998d8bb8796f ""
-  "tex/10-Tabellen.tex" 1786022827.19866 11140 cecead2304408b4294663f733d78fafc ""
+  "tex/10-Tabellen.tex" 1786032039.59686 11488 f49ee7408044d9fd6f6290739842bf6c ""
   (generated)
   "AN1-FS26.aux"
   "AN1-FS26.log"
