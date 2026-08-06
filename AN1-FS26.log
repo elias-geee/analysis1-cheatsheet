@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.1)  5 AUG 2026 17:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.8.1)  6 AUG 2026 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,19 +851,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 [][] \OML/cmm/m/it/8 b[]$ \OT1/cmr/m/n/8 di-verg.
  []
 
-) (./tex/04-Funktionen.tex [2]) (./tex/05-Differentialrechnung.tex [3]
+) (./tex/04-Funktionen.tex [2]) (./tex/05-Differentialrechnung.tex
 Overfull \hbox (1.36667pt too wide) detected at line 13
 [] [] \OT1/cmr/m/n/8 = [] [] = [][] = [][] = \OML/cmm/m/it/8 f[]\OT1/cmr/m/n/8 
 (\OML/cmm/m/it/8 a\OT1/cmr/m/n/8 )
  []
 
-) (./tex/06-Differentialgleichungen.tex [4]
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
-[][]\OT1/cmr/bx/it/8 Schwingung[]\OT1/cmr/m/n/8 : $\OML/cmm/m/it/8 A []\OT1/cmr
-/m/n/8 (\OML/cmm/m/it/8 !t\OT1/cmr/m/n/8 ) +
- []
-
-
+[3]) (./tex/06-Differentialgleichungen.tex [4]
 Overfull \hbox (8.41019pt too wide) in paragraph at lines 130--142
 [][] 
  []
@@ -879,22 +873,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--142
 ti-tu-tion[]\OT1/cmr/m/n/8 : L^^?osung von
  []
 
-) (./tex/09-Beweise.tex
-Overfull \hbox (37.29768pt too wide) detected at line 29
-[] \OML/cmm/m/it/8 f\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 x[] \OT1/cmr/m/n/8 + \OML/c
-mm/m/it/8 h\OT1/cmr/m/n/8 ) = [] [] = \OML/cmm/m/it/8 f[]\OT1/cmr/m/n/8 (\OML/c
-mm/m/it/8 x[]\OT1/cmr/m/n/8 ) \OMS/cmsy/m/n/8 ^^A \OT1/cmr/m/n/8 0 + \OML/cmm/m
-/it/8 f\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 x[]\OT1/cmr/m/n/8 ) = \OML/cmm/m/it/8 f\
-OT1/cmr/m/n/8 (\OML/cmm/m/it/8 x[]\OT1/cmr/m/n/8 )
- []
-
-[7]) (./tex/10-Tabellen.tex
-Overfull \hbox (4.33319pt too wide) in paragraph at lines 203--218
+) (./tex/09-Beweise.tex [7]) (./tex/10-Tabellen.tex
+Overfull \hbox (4.33319pt too wide) in paragraph at lines 207--222
 [][] 
  []
 
 [8])
-Underfull \hbox (badness 10000) in paragraph at lines 220--155
+Underfull \hbox (badness 10000) in paragraph at lines 224--155
 
  []
 
@@ -903,58 +888,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--155
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-
-Package rerunfilecheck Warning: File `AN1-FS26.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `AN1-FS26.out':
-(rerunfilecheck)             Before: C1EF40247891DA0ED32C50731DA96B4C;5893
-(rerunfilecheck)             After:  F53751330E0FF1E40D990D527B5C7E2C;6171.
+Package rerunfilecheck Info: File `AN1-FS26.out' has not changed.
+(rerunfilecheck)             Checksum: 825B8BC1A5553B6CA6ABFCE8A5DEBF09;6171.
  ) 
 Here is how much of TeX's memory you used:
- 24309 strings out of 467525
- 450769 string characters out of 5418983
- 928519 words of memory out of 5000000
- 52508 multiletter control sequences out of 15000+600000
+ 24312 strings out of 467525
+ 450814 string characters out of 5418983
+ 929615 words of memory out of 5000000
+ 52510 multiletter control sequences out of 15000+600000
  638369 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,18n,107p,1197b,2107s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsection*.236} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection*.230} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection*.222} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
-sr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></
-usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
-></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
-usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loc
-al/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
-texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texli
-ve/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
-/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/202
-6/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive
-/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texl
-ive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on AN1-FS26.pdf (9 pages, 348550 bytes).
+ 102i,18n,107p,1197b,2123s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
+/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.p
+fb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/l
+ocal/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
+l/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/tex
+live/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
+ve/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
+/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2
+026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texli
+ve/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/te
+xlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
+Output written on AN1-FS26.pdf (9 pages, 350065 bytes).
 PDF statistics:
- 642 PDF objects out of 1000 (max. 8388607)
- 589 compressed objects within 6 object streams
- 318 named destinations out of 1000 (max. 500000)
- 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 650 PDF objects out of 1000 (max. 8388607)
+ 597 compressed objects within 6 object streams
+ 319 named destinations out of 1000 (max. 500000)
+ 357 words of extra memory for PDF output out of 10000 (max. 10000000)
 

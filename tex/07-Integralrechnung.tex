@@ -1,4 +1,4 @@
-\section{6. Integralrechnung}
+\section{7. Integralrechnung}
 
 \subsection{Stammfunktion, unbestimmtes Integral}
 
@@ -144,6 +144,10 @@ $\forall \varepsilon > 0 \, \exists N \in \NN_0 \, \forall n \ge N \, \forall x 
 \Satz \key{Kriterium für gleichmässige Konvergenz}: Sei $M_n := \sup\limits_{x\in D}|f_n(x)-f(x)|$.
 $(f_n)_{n\in\NN_0}$ konvergiert gleichmässig gegen $f$ $\iff$ $\limsup\limits_{n\to\infty} M_n = 0$
 
+\Kor $I$ beschränktes Intervall, $(f_n)$ diff.bar auf $I$ mit $\sup\limits_{x\in I}|f_n'(x)| \to 0$.
+Konvergiert $(f_n(x_0))$ für ein $x_0 \in I$, so konvergiert $(f_n)$ gleichmässig auf $I$
+(folgt aus MWS: $|f_n(x) - f_n(x_0)| \le \sup_{x\in I}|f_n'(x)| \cdot |x - x_0|$)
+
 \Satz $D \subset \RR$, $(f_n)_{n \in \NN_0}$ Folge stetiger Funkt. $f_n: D \to \RR$, die gleichmässig
 gegen $f: D \to \RR$ konvergiert. Dann $f$ stetig
 
@@ -164,6 +168,9 @@ Ausserdem ist jede Stammfunktion von der obigen Form
 
 \Kor $F: [a, b] \to \RR$ stetig diff.bar. Dann für alle $x \in [a, b]$
 $$F(x) = F(a) + \int_{a}^{x} \hspace{-4pt}F'(t) dt$$
+
+\Kor \key{Ableitung von Integralen mit variablen Grenzen}: $f$ stetig, $a, b: I \to \RR$ diff.bar. Dann
+$$\frac{d}{dx}\int_{a(x)}^{b(x)} \hspace{-4pt} f(t)\,dt = f(b(x))\,b'(x) - f(a(x))\,a'(x)$$
 
 \Kor $f: [a, b] \to \RR$ stetig und $F: [a, b] \to \RR$ Stammfunktion von $f$.
 $$\int_a^b \hspace{-4pt} f(t) dt = F(x)\Big|_a^b = F(b) - F(a)$$
